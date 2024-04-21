@@ -7,6 +7,9 @@ import data from "../JSON/data.json";
 import Friends from "../JSON/friends.json";
 import { FriendList } from "./Friendlist/Friendlist";
 
+import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
+import transactions from "../JSON/transactions.json";
+
 
 export const App = () => {
   return (
