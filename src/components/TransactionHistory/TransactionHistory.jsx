@@ -1,6 +1,9 @@
+import React from 'react';
+import styles from './TransactionHistory.module.css';
+
 export const TransactionHistory = ({ items }) => {
     return (
-      <table class="transaction-history">
+      <table className="styles.transaction-history">
         <thead>
           <tr>
             <th>Type</th>
@@ -10,8 +13,8 @@ export const TransactionHistory = ({ items }) => {
         </thead>
   
         <tbody>
-          {items.map(item => (
-            <tr>
+          {items.map((item, index) => (
+            <tr key={index}>
               <td>Invoice</td>
               <td>125</td>
               <td>USD</td>
