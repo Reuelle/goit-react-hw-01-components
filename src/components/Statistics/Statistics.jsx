@@ -3,7 +3,7 @@ import css from "./Statistics.module.css";
 
 export const Statistics = ({title, stats}) => {
   const generateRandomColor = () => {
-    return "rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256})";
+    return` rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
   };
   
     return (
@@ -11,7 +11,7 @@ export const Statistics = ({title, stats}) => {
         {title ? <h2 className={css.title}>{title}</h2> : null}
 
         <ul className={css.statList}>
-          {stats.map(stat => (
+          {stats.map((stat) => (
             <li
             className={css.item}
             key={stat.id}
