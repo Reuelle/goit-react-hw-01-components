@@ -1,4 +1,4 @@
-.transaction-history {
+.transactionHyistory {
     border-collapse: collapse;
     table-layout: auto;
     width: 600px;
@@ -15,7 +15,7 @@
     padding: 8px;
     text-align: center;
     text-transform: uppercase;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
     background-color: #4bd8ee;
     color: white;
   }
@@ -23,7 +23,7 @@
   .tableData {
     padding: 8px;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border: 1px solid #ddd;
   }
   
   .tableData:first-of-type {
@@ -32,4 +32,7 @@
   
   .tableRow:nth-of-type(even) {
     background-color: #f9f9f9;
+  }
+  .tableRow:nth-of-type(odd) {
+    background-color: lightgrey;
   }

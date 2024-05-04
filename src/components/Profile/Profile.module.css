@@ -4,6 +4,8 @@
     align-items: center;
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: lightskyblue;
+    width: 650px;
   }
   
   .description {
@@ -18,7 +20,7 @@
   
   .avatar {
     display: block;
-    width: 300px;
+    width: 150px;
     margin-top: 20px;
     border-radius: 50%;
     background-color: gray;
@@ -44,7 +46,7 @@
   }
   
   .stats {
-    background-color: #fcfcfc;
+    background-color: lightsteelblue;
     width: 350px;
     display: flex;
     margin: 0 auto;
@@ -55,7 +57,7 @@
     align-items: center;
   }
   
-  .item {
+  .stats li {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -65,7 +67,7 @@
     border-right: 1px solid #0f0f4f;
   }
   
-  .item:last-child {
+  .stats li:last-child {
     border-right: none;
   }
   
@@ -73,7 +75,7 @@
     display: flex;
     line-height: 1.62;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 21px;
     text-align: center;
     justify-content: center;
   }
