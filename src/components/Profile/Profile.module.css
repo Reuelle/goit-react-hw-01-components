@@ -4,7 +4,7 @@
     align-items: center;
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: lightskyblue;
+    background-color: rgba(199, 215, 223, 0.8);
     width: 650px;
   }
   
@@ -82,7 +82,7 @@
   
   .quantity {
     text-align: center;
-    line-height: 1.58;
+    line-height: 1.4;
     font-weight: bold;
     margin: 10px auto;
   }
