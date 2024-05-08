@@ -78,11 +78,13 @@
     font-size: 21px;
     text-align: center;
     justify-content: center;
+    color: rgba(117, 123, 125, 0.8);
   }
   
   .quantity {
     text-align: center;
-    line-height: 1.4;
+    line-height: 1.56;
     font-weight: bold;
     margin: 10px auto;
+    color: rgba(63, 66, 68, 0.8);
   }
