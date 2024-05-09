@@ -16,6 +16,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 350px;
+  
   }
   
   .avatar {
@@ -35,11 +36,12 @@
     line-height: 1.62;
     font-weight: 700;
     color: #0f0f4f;
-    margin-top: 10px;
+    margin-top: 15px;
+    padding-top: 15px;
   }
   
   .userInfo {
-    margin-top: 0;
+    margin-top: 10px;
     font-size: 18px;
     line-height: 1.58;
     font-weight: bold;
