@@ -1,0 +1,5 @@
+[
+    { "type": "Invoice", "amount": "125", "currency": "USD" },
+    { "type": "Withdrawal", "amount": "85", "currency": "USD" }
+  ]
+  
