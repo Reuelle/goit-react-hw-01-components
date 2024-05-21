@@ -13,7 +13,7 @@ export const TransactionHistory = ({ items }) => {
         </thead>
   
         <tbody>
-          {items.slice(0, 5).map((item, index) => (
+          {items.slice(0, 10).map((item, index) => (
             <tr className={styles.tableRow} key={index}>
               <td className={styles.tableData}>{item.type}</td>
               <td className={styles.tableData}>{item.amount}</td>
