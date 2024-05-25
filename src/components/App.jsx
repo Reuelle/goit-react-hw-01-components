@@ -5,7 +5,7 @@ import { Statistics } from "./Statistics/Statistics.jsx";
 import data from "../JSON/data.json";
 
 import friends from "../JSON/friends.json";
-import { FriendList } from "./Friendlist/Friendlist.jsx";
+import { FriendList } from "./FriendList/FriendList.jsx";
 
 import { TransactionHistory } from "./TransactionHistory/TransactionHistory.jsx";
 import transactions from "../JSON/transactions.json";
