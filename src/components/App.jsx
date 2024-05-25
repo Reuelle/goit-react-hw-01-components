@@ -9,7 +9,6 @@ import { FriendList } from "./Friendlist/Friendlist.jsx";
 
 import { TransactionHistory } from "./TransactionHistory/TransactionHistory.jsx";
 import transactions from "../JSON/transactions.json";
-import sampleItems from "../data/SampleItems.json";
 
 
 export const App = () => {
@@ -36,8 +35,7 @@ export const App = () => {
 
   <FriendList friends={friends} />
 
-  < TransactionHistory items={sampleItems} />
+  < TransactionHistory items={transactions} />
   </div>
   );
 };
-export default App;
